@@ -1,12 +1,9 @@
 """
-    Simple file to create a sklearn model for deployment in our API
-
+    Simple file to create a Sklearn model for deployment in our API
     Author: Explore Data Science Academy
-
     Description: This script is responsible for training a simple linear
     regression model which is used within the API for initial demonstration
     purposes.
-
 """
 
 # Dependencies
@@ -19,6 +16,7 @@ train = pd.read_csv('./data/df_train.csv')
 
 y_train = train[['load_shortfall_3h']]
 X_train = train[['Madrid_wind_speed','Bilbao_rain_1h','Valencia_wind_speed']]
+
 
 # Fit model
 lm_regression = LinearRegression(normalize=True)
