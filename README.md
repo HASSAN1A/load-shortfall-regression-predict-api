@@ -82,7 +82,7 @@ To do this, follow the steps below by running the given commands within a Git ba
  2. Clone the *forked* repo to your local machine.
 
  ```bash
- git clone https://github.com/{your-account-name}/load-shortfall-regression-predict-api.git
+ git clone https://github.com/HASSAN1A/load-shortfall-regression-predict-api.git
  ```  
 
  3. Navigate to the base of the cloned repo, and run the API web-server initialisation script.
@@ -193,7 +193,7 @@ pip install -U flask numpy pandas scikit-learn
 3. Clone your copy of the API repo onto both the Host and Client machines, then navigate to the base of the cloned repo:
 
 ```bash
-git clone https://github.com/{your-account-name}/load-shortfall-regression-predict-api-template.git
+git clone https://github.com/HASSAN1A/load-shortfall-regression-predict-api-template.git
 cd load-shortfall-regression-predict-api-template/
 ```
 **[On the Host]:**
