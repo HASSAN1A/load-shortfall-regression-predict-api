@@ -17,8 +17,8 @@ train = pd.read_csv('./data/df_train.csv')
 
 y_train = train[['load_shortfall_3h']]
 X_train = train[['Madrid_wind_speed', 'Seville_clouds_all', 'Bilbao_wind_deg',
-                       'Seville_rain_1h', 'Bilbao_pressure', 'Bilbao_weather_id',
-                       'Valencia_temp_min']]
+                                        'Seville_rain_1h', 'Barcelona_rain_3h', 'Valencia_snow_3h',
+                                        'Bilbao_pressure', 'Bilbao_weather_id', 'Valencia_temp_min']]
 
 
 # Fit model
