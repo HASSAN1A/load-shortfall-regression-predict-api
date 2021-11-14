@@ -16,9 +16,9 @@ from sklearn.ensemble import RandomForestRegressor
 train = pd.read_csv('./data/df_train.csv')
 
 y_train = train[['load_shortfall_3h']]
-X_train = train[['Madrid_wind_speed', 'Seville_clouds_all', 'Bilbao_wind_deg',
-                                        'Seville_rain_1h', 'Barcelona_rain_3h', 'Valencia_snow_3h',
-                                        'Bilbao_pressure', 'Bilbao_weather_id', 'Valencia_temp_min']]
+X_train = train[['Unnamed: 0', 'Madrid_wind_speed', 'Valencia_wind_speed',
+       'Barcelona_pressure', 'Bilbao_pressure', 'Valencia_humidity',
+       'Barcelona_temp', 'Day', 'Month', 'Start_hour']]
 
 
 # Fit model
