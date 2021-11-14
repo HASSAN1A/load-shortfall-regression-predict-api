@@ -26,6 +26,7 @@ model = RandomForestRegressor(n_estimators=100, random_state=0 , n_jobs=1)
 print ("Training Model...")
 model.fit(X_train, y_train)
 
+
 # Pickle model for use within our API
 save_path = '../assets/trained-models/load_shortfall_simple_lm_regression.pkl'
 print (f"Training completed. Saving model to: {save_path}")
