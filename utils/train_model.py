@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestRegressor
 train = pd.read_csv('./data/df_train.csv')
 
 y_train = train[['load_shortfall_3h']]
-X_train = train[[['Day', 'Month', 'Year', 'Start_hour']]
+X_train = train[['Day', 'Month', 'Year', 'Start_hour']]
 
 
 # Fit model
