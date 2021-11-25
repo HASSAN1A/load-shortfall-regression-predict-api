@@ -50,17 +50,10 @@ def _preprocess_data(data):
 
     
     # ----------- Replace this code with your own preprocessing steps --------
-<<<<<<< HEAD
-    predict_vector = feature_vector_df[['Day', 'Month', 'Year', 'Start_hour']]
-||||||| 9e8fe85
-    predict_vector = feature_vector_df[['Madrid_wind_speed', 'Seville_clouds_all', 'Bilbao_wind_deg',
-                                        'Seville_rain_1h', 'Barcelona_rain_3h', 'Valencia_snow_3h',
-                                        'Bilbao_pressure', 'Bilbao_weather_id', 'Valencia_temp_min']]
-    return predict_vector
-=======
+
     predict_vector = feature_vector_df[[['Day', 'Month', 'Year', 'Start_hour']  ]]
     return predict_vector
->>>>>>> 28161a1ba3ba05599ba99b9fcb4b10d137aa0b17
+
     
 def load_model(path_to_model: str):
     """Adapter function to load our pretrained model into memory.
