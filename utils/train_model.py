@@ -9,7 +9,6 @@
 # Dependencies
 import pandas as pd
 import pickle
-from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor 
 
 # Fetch training data and preprocess for modeling
